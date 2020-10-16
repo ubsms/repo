@@ -42,31 +42,50 @@ Description: CasparCG Media Scanner
 
 Package: casparcg-server
 Version: 2.3.0
-Depends: casparcg-common, newtek-ndi, casparcg-libs
+Depends: casparcg-common, libndi4, casparcg-libs
 Architecture: all
 Maintainer: Richard Franks <richard@ubsms.org.uk>
 Priority: optional
 Section: video
 Filename: pool/main/c/casparcg-server/casparcg-server_2.3.0_all.deb
-Size: 37328804
-SHA256: d6febda9e0f6ae00fbe29d240a0fce4d109ab4d092eaea5b84682460f88fe7aa
-SHA1: 625295435a7071a1ff59ec7e7dba81c2235e52b8
-MD5sum: 37c46bdded188b3300a65f7951be7f2c
+Size: 37330116
+SHA256: bbd680cd8a21f97d44a6f2ef695fb04f489b712207d1a7fd08581a98d19142bc
+SHA1: 9efadc67fedf824c61bf83ec9ee9165716db5f50
+MD5sum: e39a53e13794323157424116e1a4506a
 Description: CasparCG Server
  CasparCG Server is a Windows and Linux software used to play out professional graphics, audio and video to multiple outputs. It has been in 24/7 broadcast production since 2006.
 
-Package: newtek-ndi
-Version: 4.5.2
-Architecture: all
-Maintainer: Richard Franks <richard@ubsms.org.uk>
-Priority: optional
+Package: libndi4
+Installed-Size: 17928
+Maintainer: stephane.lepin@gmail.com
+Architecture: amd64
+Version: 4.5.1-1
+Provides: libndi4
+Replaces: libndi3
+Priority: extra
 Section: video
-Filename: pool/main/n/newtek-ndi/newtek-ndi_4.5.2_all.deb
-Size: 1189304
-SHA256: 5c533f8af73a2160f5aa86835a37178307feab2951aeccc92e3027da15962e52
-SHA1: 0cf07914a690aeab1ab81c6194748ad68681048c
-MD5sum: 15f2dd07f2b134d433833d3d84096434
-Description: NewTek NDI libraries
+Filename: pool/main/libn/libndi4/libndi4_4.5.1-1_amd64.deb
+Size: 1523808
+SHA256: d82e4231c6543ee978c85d114edd8f038c902b9be858aa6c5e847af39031f30b
+SHA1: aa2ca084d438ab9b06cd114e689fecf77e1f5148
+MD5sum: ba1c297880f756b8ccd2655ab0dc8cc2
+Description: Package created with checkinstall 1.6.2
+
+Package: obs-ndi
+Installed-Size: 288
+Maintainer: stephane.lepin@gmail.com
+Architecture: amd64
+Version: 4.9.1-1
+Depends: obs-studio (>= 25.0.7), libndi4 (>= 4.5.1)
+Provides: obs-ndi
+Priority: extra
+Section: video
+Filename: pool/main/o/obs-ndi/obs-ndi_4.9.1-1_amd64.deb
+Size: 31316
+SHA256: e91a27370dcbee0879fb27ffec8dba149825f47909a92e31a001e87e64e7329b
+SHA1: afd23151c6d7a3374d760a9b27999d1da8a9f255
+MD5sum: 10e18a4eebf983fe33fefb82c0914a60
+Description: Package created with checkinstall 1.6.2
 
 Package: ubsms-themes
 Version: 1.0
