@@ -1,0 +1,6 @@
+Codename: bionic
+Components: main
+Suite: stable
+Description: UBSMS Repository
+Architectures: amd64
+SignWith: 1A10C57B

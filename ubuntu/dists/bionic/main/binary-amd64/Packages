@@ -1,0 +1,70 @@
+Package: casparcg-common
+Version: 1.0
+Architecture: all
+Maintainer: Richard Franks <richard@ubsms.org.uk>
+Priority: optional
+Section: video
+Filename: pool/main/c/casparcg-common/casparcg-common_1.0_all.deb
+Size: 31916304
+SHA256: 74bc435e89f83cb1fb81bd9a64cd16a80f2e52a64eb4b6b3893d4d86fab3cd14
+SHA1: f376bd2dc31ff4572607616ea4ce6de5ed1220bf
+MD5sum: 04d1985058a52dcad1941e27fe23d30d
+Description: Common files for CasparCG server
+
+Package: casparcg-libs
+Version: 2.3.0
+Architecture: all
+Maintainer: Richard Franks <richard@ubsms.org.uk>
+Priority: optional
+Section: video
+Filename: pool/main/c/casparcg-libs/casparcg-libs_2.3.0_all.deb
+Size: 67436668
+SHA256: c354fabca54b21c9898f5c0c91af9780f6cabd5be3ed3a56a876c6d85e4628dc
+SHA1: 4ca49673fa2bda4bd5071701bdce422613dc6ad0
+MD5sum: 1c0b22504fe0e8274417ec4b39416a7d
+Description: CasparCG Server (libraries)
+ CasparCG Server is a Windows and Linux software used to play out professional graphics, audio and video to multiple outputs. It has been in 24/7 broadcast production since 2006.
+
+Package: casparcg-media-scanner
+Version: 1.0.0
+Depends: casparcg-common
+Architecture: all
+Maintainer: Richard Franks <richard@ubsms.org.uk>
+Priority: optional
+Section: video
+Filename: pool/main/c/casparcg-media-scanner/casparcg-media-scanner_1.0.0_all.deb
+Size: 12570124
+SHA256: e90a8e5f0ddc84be98da81b81bd4d7d944cbd8711eac1b594716684ad8fd774e
+SHA1: 379868549a75fdfb5db73912fb28707591ed67cd
+MD5sum: adc84447f2eccf8140207a9a0dc9de2c
+Description: CasparCG Media Scanner
+ CasparCG Server is a Windows and Linux software used to play out professional graphics, audio and video to multiple outputs. It has been in 24/7 broadcast production since 2006.
+
+Package: casparcg-server
+Version: 2.3.0
+Depends: casparcg-common, newtek-ndi, casparcg-libs
+Architecture: all
+Maintainer: Richard Franks <richard@ubsms.org.uk>
+Priority: optional
+Section: video
+Filename: pool/main/c/casparcg-server/casparcg-server_2.3.0_all.deb
+Size: 37328804
+SHA256: d6febda9e0f6ae00fbe29d240a0fce4d109ab4d092eaea5b84682460f88fe7aa
+SHA1: 625295435a7071a1ff59ec7e7dba81c2235e52b8
+MD5sum: 37c46bdded188b3300a65f7951be7f2c
+Description: CasparCG Server
+ CasparCG Server is a Windows and Linux software used to play out professional graphics, audio and video to multiple outputs. It has been in 24/7 broadcast production since 2006.
+
+Package: newtek-ndi
+Version: 4.5.2
+Architecture: all
+Maintainer: Richard Franks <richard@ubsms.org.uk>
+Priority: optional
+Section: video
+Filename: pool/main/n/newtek-ndi/newtek-ndi_4.5.2_all.deb
+Size: 1189304
+SHA256: 5c533f8af73a2160f5aa86835a37178307feab2951aeccc92e3027da15962e52
+SHA1: 0cf07914a690aeab1ab81c6194748ad68681048c
+MD5sum: 15f2dd07f2b134d433833d3d84096434
+Description: NewTek NDI libraries
+
