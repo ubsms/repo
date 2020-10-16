@@ -48,10 +48,10 @@ Maintainer: Richard Franks <richard@ubsms.org.uk>
 Priority: optional
 Section: video
 Filename: pool/main/c/casparcg-server/casparcg-server_2.3.0_all.deb
-Size: 37330116
-SHA256: bbd680cd8a21f97d44a6f2ef695fb04f489b712207d1a7fd08581a98d19142bc
-SHA1: 9efadc67fedf824c61bf83ec9ee9165716db5f50
-MD5sum: e39a53e13794323157424116e1a4506a
+Size: 37330076
+SHA256: 1bdd23ca1694c95c848a78a915670da7eb6220e9a5aa9173b63762baf8879227
+SHA1: a7ae3f00ae8a67fd010fe38dbbc2312d047c0ef4
+MD5sum: e434db81b604e988ed7cde858d51dd35
 Description: CasparCG Server
  CasparCG Server is a Windows and Linux software used to play out professional graphics, audio and video to multiple outputs. It has been in 24/7 broadcast production since 2006.
 
