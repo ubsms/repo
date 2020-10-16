@@ -68,3 +68,16 @@ SHA1: 0cf07914a690aeab1ab81c6194748ad68681048c
 MD5sum: 15f2dd07f2b134d433833d3d84096434
 Description: NewTek NDI libraries
 
+Package: ubsms-themes
+Version: 1.0
+Architecture: all
+Maintainer: Richard Franks <richard@ubsms.org.uk>
+Priority: optional
+Section: video
+Filename: pool/main/u/ubsms-themes/ubsms-themes_1.0_all.deb
+Size: 415564
+SHA256: dfb503b028e3eeb5b47cedfaf24f60822fe6da0a0e8dab0df18c91001a681e96
+SHA1: 71df438d4a2d0df986da8019f96187f94b91c15d
+MD5sum: 2e8747d3dae02fe877511a7ecab03050
+Description: Collection of themes for UBSMS
+
