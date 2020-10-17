@@ -1,18 +1,18 @@
 Suite: stable
 Codename: bionic
-Date: Sat, 17 Oct 2020 14:44:57 UTC
+Date: Sat, 17 Oct 2020 15:14:30 UTC
 Architectures: amd64
 Components: main
 Description: UBSMS Repository
 MD5Sum:
- 9673c65af460e445c5d4a929add90f01 3701 main/binary-amd64/Packages
- d6550b0b9b29e58b1f328e0c6afb6042 1366 main/binary-amd64/Packages.gz
+ f2bda031a67c04ff8ce3473b8085e213 5695 main/binary-amd64/Packages
+ 13695011d544b70f2b1a3b69cbd88e0f 2184 main/binary-amd64/Packages.gz
  33326055f80b0e7e1f2531f3a72c16bf 82 main/binary-amd64/Release
 SHA1:
- ec08f8e2930cc35ce93a91782cceeb263e2cedc0 3701 main/binary-amd64/Packages
- b15d3fd01697a0b14d5870f953090cd8b76edf44 1366 main/binary-amd64/Packages.gz
+ 7d4e896e6eb1cb70f26f2d9ce7a170b3d0d7dcca 5695 main/binary-amd64/Packages
+ 2dcfe32940f9f86aef2a3638c06f4eba7d3b0664 2184 main/binary-amd64/Packages.gz
  753c3c9957f0c6f3bef19a7af6cb9cdead57155e 82 main/binary-amd64/Release
 SHA256:
- eedfcd7003c093c8fc2d685607b67c2964567bd50c621e28d80d2c85ffcb1124 3701 main/binary-amd64/Packages
- be1185a8133a6ce66afbd5b3820cc9d588892e10aeea3cd59b56af44026a8e4a 1366 main/binary-amd64/Packages.gz
+ 5ba7a8db086389e4caa0d54c9ca9a3e46faf6ac0724d69a9d77ad10ec73f757f 5695 main/binary-amd64/Packages
+ b358de0c9162a1aac20ff142ae108ebde2abead04c282be104b4f8764ca5a90d 2184 main/binary-amd64/Packages.gz
  1bc9ebdf382d47df51e31d6c3aff39e1b97046639e3b29157c86402f8d2625e4 82 main/binary-amd64/Release
