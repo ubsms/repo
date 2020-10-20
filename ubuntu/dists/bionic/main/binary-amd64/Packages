@@ -1,58 +1,69 @@
 Package: casparcg-common
-Version: 1.0
-Architecture: all
+Source: casparcg-server
+Version: 2.3.0-1
+Architecture: amd64
 Maintainer: Richard Franks <richard@ubsms.org.uk>
+Installed-Size: 29
+Homepage: https://www.casparcg.com
 Priority: optional
 Section: video
-Filename: pool/main/c/casparcg-common/casparcg-common_1.0_all.deb
-Size: 31916304
-SHA256: 4c860b0f33f95c599c20148915b96f9a87050c0a5920971055018d5acf090b2c
-SHA1: fd643ea9a88cf3878ee83bec6cee6385f38f7a14
-MD5sum: 3e2cd6036ddb8c1768f11f458441bfc6
-Description: Common files for CasparCG server
+Filename: pool/main/c/casparcg-server/casparcg-common_2.3.0-1_amd64.deb
+Size: 5304
+SHA256: 1e87e79bbd2cce4c91ae01b6c9b41cf3d62662532f4fc6d8a703db2d0fcebaae
+SHA1: 3c7de2d1f51242eb934554323cfb86bbfa397925
+MD5sum: 661f5156d38b2a532b148b2dfad04c8a
+Description: CasparCG Video Playout Server - Common Files
+ CasparCG Server is a Windows and Linux software used to play out professional graphics, audio and video to multiple outputs. It has been in 24/7 broadcast production since 2006.
 
 Package: casparcg-libs
-Version: 2.3.0
-Architecture: all
+Source: casparcg-server
+Version: 2.3.0-1
+Architecture: amd64
 Maintainer: Richard Franks <richard@ubsms.org.uk>
+Installed-Size: 234582
+Depends: libasound2 (>= 1.0.27), libasyncns0 (>= 0.3), libatk-bridge2.0-0 (>= 2.5.3), libatk1.0-0 (>= 2.12.0), libatspi2.0-0 (>= 2.9.90), libblkid1 (>= 2.17.2), libbsd0 (>= 0.2.0), libc6 (>> 2.27), libc6 (<< 2.28), libcairo2 (>= 1.8.0), libdatrie1 (>= 0.2.0), libdbus-1-3 (>= 1.9.14), libexpat1 (>= 2.0.1), libffi6 (>= 3.0.4), libflac8 (>= 1.3.0), libfontconfig1 (>= 2.12), libfreetype6 (>= 2.7.1), libfribidi0 (>= 0.19.2), libgcc1 (>= 1:3.0), libgcrypt20 (>= 1.8.0), libgl1, libglib2.0-0 (>= 2.55.2), libglvnd0, libglx0, libgmp10 (>= 2:6.0.0), libgomp1 (>= 4.9), libgpg-error0 (>= 1.25), libgraphite2-3 (>= 1.2.2), libharfbuzz0b (>= 1.2.6), libhogweed4, libicu60 (>= 60.1-1~), libidn2-0 (>= 0.6), libilmbase12 (>= 2.2.0), libjbig0 (>= 2.0), libjpeg8 (>= 8c), libjxr0 (>= 1.0), liblcms2-2 (>= 2.2+git20110628), liblz4-1 (>= 0.0~r113), liblzma5 (>= 5.1.1alpha+20120614), libmount1 (>= 2.19.1), libmpg123-0 (>= 1.13.7), libnettle6, libnspr4 (>= 2:4.12), libnss3 (>= 2:3.33), libnuma1 (>= 2.0.11), libogg0 (>= 1.1.0), libopenexr22, libopenjp2-7 (>= 2.0.0), libp11-kit0 (>= 0.23.1), libpango-1.0-0 (>= 1.37.5), libpangocairo-1.0-0 (>= 1.14.0), libpangoft2-1.0-0 (>= 1.28.1), libpcre3, libpixman-1-0 (>= 0.30.0), libpng16-16 (>= 1.6.2-1), libpulse0 (>= 0.99.1), libraw16 (>= 0.16.0), libselinux1 (>= 1.32), libsfml-system2.4 (>= 2.4.2+dfsg-4~), libsfml-window2.4 (>= 2.4.1~), libsndfile1 (>= 1.0.20), libsndio6.1 (>= 1.1.0), libsqlite3-0 (>= 3.5.9), libstdc++6 (>= 7), libsystemd0, libtasn1-6 (>= 4.12), libtbb2, libthai0 (>= 0.1.12), libtiff5 (>= 4.0.3), libudev1 (>= 183), libunistring2 (>= 0.9.7), libuuid1 (>= 2.16), libvorbis0a (>= 1.2.3), libvorbisenc2 (>= 1.1.2), libvorbisfile3 (>= 1.1.2), libwayland-client0 (>= 1.9.91), libwayland-cursor0 (>= 1.0.2), libwayland-egl1 (>= 1.15.0), libwebp6 (>= 0.5.1), libwebpmux3 (>= 0.6.1-2), libwrap0 (>= 7.6-4~), libx11-6 (>= 2:1.6.0), libx11-xcb1, libxau6, libxcb-render0, libxcb-shm0, libxcb1 (>= 1.12), libxcomposite1 (>= 1:0.3-1), libxcursor1 (>> 1.1.2), libxdamage1 (>= 1:1.1), libxdmcp6, libxext6, libxfixes3, libxi6 (>= 2:1.2.99.4), libxinerama1, libxkbcommon0 (>= 0.5.0), libxml2 (>= 2.7.4), libxrandr2 (>= 2:1.2.99.3), libxrender1, libxss1, libxtst6, libxxf86vm1, zlib1g (>= 1:1.2.11)
+Homepage: https://www.casparcg.com
 Priority: optional
 Section: video
-Filename: pool/main/c/casparcg-libs/casparcg-libs_2.3.0_all.deb
-Size: 67436668
-SHA256: 16dec3ea45cdd0cdcc9eeb3451eb0b550786db5712d7b52d8c13049cbaceb415
-SHA1: 66e82a709596e2f9f402cfb6c89b6002ea1ce2c4
-MD5sum: 0893f58bac30b4ce68f9c97fd97dba0b
-Description: CasparCG Server (libraries)
+Filename: pool/main/c/casparcg-server/casparcg-libs_2.3.0-1_amd64.deb
+Size: 65008084
+SHA256: 0137d00bc108d3bc4bc93b07689bdc090d1baf8d675c0deaaa471d8f1c7e6dd0
+SHA1: 5cfd79fe158d5500925c199a9e29e00286e9eee7
+MD5sum: 2f74cda793a160b551b197763bcafd2d
+Description: CasparCG Video Playout Server - Common Files
  CasparCG Server is a Windows and Linux software used to play out professional graphics, audio and video to multiple outputs. It has been in 24/7 broadcast production since 2006.
 
 Package: casparcg-media-scanner
-Version: 1.0.0
-Depends: casparcg-common
-Architecture: all
+Version: 1.0.0-1
+Architecture: amd64
 Maintainer: Richard Franks <richard@ubsms.org.uk>
+Installed-Size: 28749
+Depends: libc6 (>= 2.14), libgcc1 (>= 1:3.4), libstdc++6 (>= 4.4.0), casparcg-common
 Priority: optional
 Section: video
-Filename: pool/main/c/casparcg-media-scanner/casparcg-media-scanner_1.0.0_all.deb
-Size: 12572256
-SHA256: c6e3c10adf2c57f1ec1f46b74bbfd19c27fa6ab0b2d1725230bf2aa87390f869
-SHA1: 1324a315c3a6e43ea6bf6aaedc7c1ee6ea25672e
-MD5sum: 036b1e7803c598b61e433874518bdec6
+Filename: pool/main/c/casparcg-media-scanner/casparcg-media-scanner_1.0.0-1_amd64.deb
+Size: 7930508
+SHA256: 490e33e3eb5299f905f5d139ad0efcdf55386cc3271a6df4fe7659eec818b62a
+SHA1: 6dc0ea0c43e1a070fdf1d8e7864d041feef70ce4
+MD5sum: 5808d92a9f45964e0a5e044285827660
 Description: CasparCG Media Scanner
- CasparCG Server is a Windows and Linux software used to play out professional graphics, audio and video to multiple outputs. It has been in 24/7 broadcast production since 2006.
+ A service used with CasparCG Server software for scanning media located on the server. Queried with query and thumbnail commands through CasparCG Server using AMCP.
 
 Package: casparcg-server
-Version: 2.3.0
-Depends: casparcg-common, libndi4, casparcg-libs
-Architecture: all
+Version: 2.3.0-1
+Architecture: amd64
 Maintainer: Richard Franks <richard@ubsms.org.uk>
+Installed-Size: 69175
+Depends: libasound2 (>= 1.0.16), libass9 (>= 1:0.13.6), libbluray2 (>= 1:0.2.2), libbz2-1.0, libc6 (>= 2.27), libfontconfig1 (>= 2.12), libfreeimage3, libfreetype6 (>= 2.2.1), libgcc1 (>= 1:3.3), libgl1, libglew2.0 (>= 1.12.0), libgmp10, libgnutls30 (>= 3.5.6), libicu60 (>= 60.1-1~), liblzma5 (>= 5.1.1alpha+20120614), libmp3lame0 (>= 3.100), libopenal1 (>= 1.14), libopencore-amrnb0, libopencore-amrwb0, libopenjp2-7 (>= 2.0.0), libopenmpt0 (>= 0.3.0), libopus0 (>= 1.1), libsdl2-2.0-0 (>= 2.0.8), libsfml-graphics2.4, libsfml-system2.4 (>= 2.4.2+dfsg-4~), libsfml-window2.4 (>= 2.4.1~), libshine3 (>= 3.1.0), libsnappy1v5, libsndio6.1 (>= 1.1.0), libsoxr0 (>= 0.1.0), libspeex1 (>= 1.2~beta3-1), libstdc++6 (>= 7), libtbb2, libtheora0 (>= 1.0), libtwolame0 (>= 0.3.10), libvo-amrwbenc0, libvorbis0a (>= 1.1.2), libvorbisenc2 (>= 1.1.2), libvpx5 (>= 1.6.0), libwavpack1 (>= 4.40.0), libwebp6 (>= 0.5.1), libwebpmux3 (>= 0.6.1-2), libx11-6, libx264-152, libx265-146 (>= 2.6), libxcb-shape0, libxcb-shm0, libxcb-xfixes0, libxcb1, libxext6, libxml2 (>= 2.7.4), libxv1, libxvidcore4 (>= 1.2.2), zlib1g (>= 1:1.2.0.2), casparcg-common, casparcg-libs
+Homepage: https://www.casparcg.com
 Priority: optional
 Section: video
-Filename: pool/main/c/casparcg-server/casparcg-server_2.3.0_all.deb
-Size: 37328328
-SHA256: 734bb2b93764438c6f7e3238fed0abf6e54977cd53fd570e0163511146d4f402
-SHA1: 0296042ad2792b5cecab5bd4257ad04bf25f8255
-MD5sum: 76d3598e12697ff5cdeda6d18d62d8b3
-Description: CasparCG Server
+Filename: pool/main/c/casparcg-server/casparcg-server_2.3.0-1_amd64.deb
+Size: 20281500
+SHA256: 32745c9fb1fcd792a15008c28ad55c331bf81baf7a52ef3ec7d1397cd3c05dfa
+SHA1: b0c18cb767d195d387388f6fd020c998f4708bc1
+MD5sum: 22d93388ca558475705a4ef0ed45128f
+Description: CasparCG Video Playout Server
  CasparCG Server is a Windows and Linux software used to play out professional graphics, audio and video to multiple outputs. It has been in 24/7 broadcast production since 2006.
 
 Package: libndi4
