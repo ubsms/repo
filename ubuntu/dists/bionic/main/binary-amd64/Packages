@@ -9,9 +9,9 @@ Priority: optional
 Section: video
 Filename: pool/main/c/casparcg-server/casparcg-common_2.3.0-1_amd64.deb
 Size: 5304
-SHA256: 1e87e79bbd2cce4c91ae01b6c9b41cf3d62662532f4fc6d8a703db2d0fcebaae
-SHA1: 3c7de2d1f51242eb934554323cfb86bbfa397925
-MD5sum: 661f5156d38b2a532b148b2dfad04c8a
+SHA256: b56cc638a5b9fbecb74858eb3b9227fe6f71babdf76e4f7906c676e3109eb2a9
+SHA1: 18a9ff3766061e94263820d5f37e5903ba23ec49
+MD5sum: 24534ab22d1e1c299e65239d3a251809
 Description: CasparCG Video Playout Server - Common Files
  CasparCG Server is a Windows and Linux software used to play out professional graphics, audio and video to multiple outputs. It has been in 24/7 broadcast production since 2006.
 
@@ -38,14 +38,14 @@ Version: 1.0.0-1
 Architecture: amd64
 Maintainer: Richard Franks <richard@ubsms.org.uk>
 Installed-Size: 28749
-Depends: libc6 (>= 2.14), libgcc1 (>= 1:3.4), libstdc++6 (>= 4.4.0), casparcg-common
+Depends: casparcg-common
 Priority: optional
 Section: video
 Filename: pool/main/c/casparcg-media-scanner/casparcg-media-scanner_1.0.0-1_amd64.deb
-Size: 7930508
-SHA256: 490e33e3eb5299f905f5d139ad0efcdf55386cc3271a6df4fe7659eec818b62a
-SHA1: 6dc0ea0c43e1a070fdf1d8e7864d041feef70ce4
-MD5sum: 5808d92a9f45964e0a5e044285827660
+Size: 14203616
+SHA256: daaf5e1296b4d8285a217c68858e2c2b69f918a98ef2d03077c47417a201d142
+SHA1: 294edebf5a1807de18f8adfa73056e730a601207
+MD5sum: 73ff7b27fb4bb00f0bda129743647b8f
 Description: CasparCG Media Scanner
  A service used with CasparCG Server software for scanning media located on the server. Queried with query and thumbnail commands through CasparCG Server using AMCP.
 
