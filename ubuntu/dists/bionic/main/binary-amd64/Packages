@@ -8,10 +8,10 @@ Homepage: https://www.casparcg.com
 Priority: optional
 Section: video
 Filename: pool/main/c/casparcg-server/casparcg-common_2.3.0-1_amd64.deb
-Size: 5304
-SHA256: b56cc638a5b9fbecb74858eb3b9227fe6f71babdf76e4f7906c676e3109eb2a9
-SHA1: 18a9ff3766061e94263820d5f37e5903ba23ec49
-MD5sum: 24534ab22d1e1c299e65239d3a251809
+Size: 5332
+SHA256: 87c924bc2f9323a787ca78cd64fcd1bc6fc8db77436dcff0039aa401919cf950
+SHA1: 8362f5a61de0238f8314acb2a47e0973839609e9
+MD5sum: af4ded30ca636b13d656b8832b31eddc
 Description: CasparCG Video Playout Server - Common Files
  CasparCG Server is a Windows and Linux software used to play out professional graphics, audio and video to multiple outputs. It has been in 24/7 broadcast production since 2006.
 
