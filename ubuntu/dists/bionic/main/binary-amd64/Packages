@@ -115,6 +115,44 @@ SHA1: 00a06ed4325768591c84b2bc305a83dc95b55ae0
 MD5sum: 32ed74ecc8e18ee6049a31d27c5f4e8a
 Description: OBS Studio for Ubuntu
 
+Package: python3-amcp-pylib
+Source: amcp-pylib
+Version: 0.2.2-1
+Architecture: all
+Maintainer: Richard Franks <richard@ubsms.org.uk>
+Installed-Size: 122
+Depends: python3:any (>= 3.3.2-2~)
+Suggests: python-amcp-pylib-doc
+Homepage: https://github.com/dolejska-daniel/amcp-pylib
+Priority: optional
+Section: misc
+Filename: pool/main/a/amcp-pylib/python3-amcp-pylib_0.2.2-1_all.deb
+Size: 20280
+SHA256: d1583458264d4a4854abe77283685f38ec927143cf8fe3a483be2cc7b6313d69
+SHA1: 44a1c2bec064aae6546483db73ad997df80ac89b
+MD5sum: b2b7111a4f6f63e1c7e013e387b019bc
+Description: Python client library for CasparCG's AMCP Protocol (Advanced Media Control Protocol). (Python 3)
+ This package installs the library for Python 3.
+
+Package: python3-liturgyclient
+Source: liturgyclient
+Version: 0.1.0-1
+Architecture: all
+Maintainer: Richard Franks <richard@ubsms.org.uk>
+Installed-Size: 30
+Depends: python3-ruamel.yaml, python3-wxgtk4.0, python3:any (>= 3.3.2-2~)
+Suggests: python-liturgyclient-doc
+Homepage: https://github.com/ubsms/liturgy-client
+Priority: optional
+Section: misc
+Filename: pool/main/l/liturgyclient/python3-liturgyclient_0.1.0-1_all.deb
+Size: 5228
+SHA256: da7228f086f7aa965ea5a00b5635580238c4c781002759f11c80455fd840ceb4
+SHA1: 1ef77116685cbe9694296c0998ca7de21308fc06
+MD5sum: 02dd2885bb7962fe1bc5ecd1d6865d75
+Description: Liturgy Client library (Python 3)
+ This package installs the library for Python 3.
+
 Package: ubsms-themes
 Version: 1.0
 Architecture: all
