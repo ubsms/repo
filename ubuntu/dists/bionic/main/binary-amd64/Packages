@@ -82,6 +82,22 @@ SHA1: aa2ca084d438ab9b06cd114e689fecf77e1f5148
 MD5sum: ba1c297880f756b8ccd2655ab0dc8cc2
 Description: Package created with checkinstall 1.6.2
 
+Package: liturgy-client
+Version: 0.1.0-1
+Architecture: all
+Maintainer: Richard Franks <richard@ubsms.org.uk>
+Installed-Size: 11
+Depends: python3-liturgyclient
+Homepage: https://github.com/ubsms/liturgy-client
+Priority: optional
+Section: misc
+Filename: pool/main/l/liturgy-client/liturgy-client_0.1.0-1_all.deb
+Size: 2096
+SHA256: 6569507c825ff87b54254ff23f4eedbf9dfacdb1e2e00c61c589ff0683dfcb44
+SHA1: 843d03ad61db3aff8e19f807b182043c2ae3fdbd
+MD5sum: 6c6717a9984089846d0ef5ca8a6cc7a9
+Description: Python liturgy client
+
 Package: obs-ndi
 Installed-Size: 288
 Maintainer: stephane.lepin@gmail.com
